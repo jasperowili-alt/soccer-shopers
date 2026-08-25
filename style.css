@@ -21,13 +21,22 @@
     color: orange;
 }
 @media (max-width:700px){
+
+.home ul{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:0;
+}
     .home ul li {
-        width: 5%;
-        display: inline-block;
+    
+        width:100%;
+    padding:15px 0;
+    text-align:center;
         
     }
     .home ul li a{
-        font-size: 16px;
+        font-size: 18px;
     }
 
 }
@@ -62,6 +71,23 @@
 
 /*==============================button==========*/
 
+.head img{
+
+    width:250px;
+    display:block;
+    margin:30px auto;
+
+}
+@media(max-width:700px){
+
+.head img{
+
+    width:180px;
+
+}
+
+}
+
 .btn{
 
     margin-top: 30px;
@@ -71,8 +97,8 @@
     
 }
 #button1{
-    width: 10%;
-    height: 40px;
+    width: 170px;
+    height: 45px;
     border-radius: 20px;
     background: transparent;
     color: orange;
@@ -83,8 +109,8 @@
     background: orange;
 }
 #button2{
-    width: 10%;
-    height: 40px;
+    width: 170px;
+    height: 45px;
     border-radius: 20px;
     background: orange;
     color: black;
@@ -95,17 +121,24 @@
      background: transparent;
 }
 /*===================button styling============button*/
-@media (max-width:700px){
-    .btn{
-      /*  display: ;*/
-        padding: 60px;
-    }
-    #button1{
-        width: 50%;
-    }
-    #button2{
-        width:50% ;
-    }
+
+
+@media(max-width:700px){
+
+.btn{
+
+    flex-direction:column;
+    align-items:center;
+    padding:20px;
+
+}
+
+#button1,
+#button2{
+
+    width:220px;
+
+}
 
 }
 .about{
@@ -213,9 +246,10 @@
     box-sizing: border-box;
 }
 #photo{
-    height: 250px;
-    width: 80%;
-    object-fit: cover;
+      width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
 }
 
 
@@ -248,8 +282,9 @@
 
 
 #ims{
-    height: 250px;
-    width: 250px;
+    width:100%;
+height:250px;
+object-fit:cover;
 }
 .product{
     display: flex;
