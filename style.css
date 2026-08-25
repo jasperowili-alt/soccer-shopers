@@ -1,0 +1,813 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home ul li{
+    display: inline-block;
+    padding: 30px;
+    
+}
+.home ul li a{
+    outline: none;
+    font-size: 22px;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.1rem;
+    transition: 0.5s;
+    
+}
+.home ul li a:hover{
+    color: orange;
+}
+@media (max-width:700px){
+    .home ul li {
+        width: 5%;
+        display: inline-block;
+        
+    }
+    .home ul li a{
+        font-size: 16px;
+    }
+
+}
+.head{
+    margin-left: 10%;
+}
+.head h1{
+    font-size: 3rem;
+    color: rebeccapurple;
+}
+.head span{
+    color: red;
+}
+.head p{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    padding-top: 40px;
+}
+
+/*======================home heads==========*/
+@media(max-width:700px){
+    .head h1{
+        font-size: 40px;
+        
+    }
+    .head p{
+        font-size: 16px;
+    }
+}
+
+
+/*==============================button==========*/
+
+.btn{
+
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+     text-decoration: none;
+    
+}
+#button1{
+    width: 10%;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color: orange;
+    transition: 0.5s;
+   
+}
+#button1:hover{
+    background: orange;
+}
+#button2{
+    width: 10%;
+    height: 40px;
+    border-radius: 20px;
+    background: orange;
+    color: black;
+    transition: 0.5s;
+
+}
+#button2:hover{
+     background: transparent;
+}
+/*===================button styling============button*/
+@media (max-width:700px){
+    .btn{
+      /*  display: ;*/
+        padding: 60px;
+    }
+    #button1{
+        width: 50%;
+    }
+    #button2{
+        width:50% ;
+    }
+
+}
+.about{
+   
+       max-width: 1200px;       /* Keeps content from stretching too wide */
+    margin: 0 auto;          /* Centers the section container on the screen */
+    margin-top: 180px;           /* Normal padding around the container */
+    text-align: left; 
+   /* display: flex;*/
+    
+}
+.about h1 {
+    font-size: 3rem;         /* Keeps your large, bold text */
+    margin-bottom: 20px; 
+    font-weight: bold; 
+    color: rebeccapurple;   /* Space between "about us" and the content below */
+}
+.img {
+    flex: 1;                 
+}
+.about-sec p{
+    margin-left: 3%;
+    font-size: 22px;
+     line-height: 40px;
+}
+
+
+.images3 {
+    width: 100%;
+    max-width: 450px;        /* Limits how big the image can get */
+    height: auto;
+    display: block;
+    border-radius: 20px;      /* Optional: rounds the sharp corners of the image */
+}
+.about-sec {
+    display: flex;
+    align-items: center;     /* Perfectly aligns text and image vertically */
+    justify-content: flex-start; /* Forces content to align to the left side */
+    gap: 40px;               /* Adds a clean space between the text and image */
+}
+
+.about-text {
+    flex: 1;                 
+}
+
+/* Controls the width of the image side */
+.img {
+    flex: 1;                 
+}
+
+/* Ensures the image doesn't overflow and scales nicely */
+.images3 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+/*=================================================stylling about us=================
+*/
+
+
+
+@media (max-width:700px){
+    .about{
+        margin-top: 20px;
+    }
+    .about h1{
+        font-size: 40px;
+    }
+    .about-sec{
+        flex-direction: column;
+    }
+    .about-sec p{
+        font-size: 16px;
+    }
+    .images3{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+
+.gallery{
+    margin-top: 100px;
+    max-width: 1200px;
+}
+.gallery h1{
+
+     font-size: 3rem;         /* Keeps your large, bold text */
+    margin-left: 10%; 
+    font-weight: bold; 
+    color: rebeccapurple;   /* Space between "about us" and the content below */
+}
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin: 50px;
+}
+.new-ball{
+    flex: 0 0 calc(25% - 21px);
+    box-sizing: border-box;
+}
+#photo{
+    height: 250px;
+    width: 80%;
+    object-fit: cover;
+}
+
+
+
+
+/*==================================================.gallery===========
+*/
+
+@media(max-width:700px){
+    .gallery h1{
+        font-size: 40px;
+    }
+    .pic{
+         padding: 20px;
+        gap: 16px;
+    }
+    .new-ball{
+       
+        flex: 0 0 calc(50% - 8px);
+    }
+    #photo{
+       height: 150px;
+        
+
+    }
+}
+
+
+
+
+
+#ims{
+    height: 250px;
+    width: 250px;
+}
+.product{
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.prod-process{
+    flex:  0 0 calc(33% - 15px);
+}
+@media (max-width:700px){
+    .prod-process{
+        flex: 0 0 calc(50% - 8px);
+    }
+    #ims{
+        height: 200px;
+        width: 200px;
+    }
+    .product{
+        padding: 20px;
+        gap: 16px;
+    }.production h1{
+        font-size: 40px;
+
+    }
+}
+.production h1{
+       font-size: 3rem;         /* Keeps your large, bold text */
+    margin-left: 10%; 
+    font-weight: bold; 
+    color: rebeccapurple;   /* Space between "about us" and the content below */
+
+}
+.production p{
+     margin-left: 10%; 
+    
+    font-size: 1rem;
+}
+
+
+
+/*=======================copy paste===============*/
+
+
+.contact-section {
+    padding: 80px 8%;
+    background: #111827;
+    color: white;
+}
+
+/* Section heading */
+
+.contact-section h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.contact-section > p {
+    text-align: center;
+    color: #bfbfbf;
+    max-width: 600px;
+    margin: 0 auto 60px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   CONTACT CONTAINER
+========================= */
+
+.contact {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 50px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* =========================
+   LEFT SIDE
+========================= */
+
+.contact-infom {
+    flex: 1;
+    background: #1f2937;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+.contact-infom h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+
+/* Individual information */
+
+.infom {
+    padding: 18px 0;
+    border-bottom: 1px solid #374151;
+    color: #d1d5db;
+    transition: 0.3s;
+}
+
+.infom:last-child {
+    border-bottom: none;
+}
+
+.infom:hover {
+    color: #ff5e3a;
+    transform: translateX(8px);
+}
+
+
+/* =========================
+   CONTACT FORM
+========================= */
+
+.contact-form {
+    flex: 1;
+    background: #1f2937;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+
+/* Inputs */
+
+.contact-form input,
+.contact-form textarea {
+   /* width: %;*/
+    padding: 15px;
+    margin-bottom: 20px;
+
+    background: #111827;
+    color: white;
+
+    border: 1px solid #374151;
+    border-radius: 8px;
+
+    outline: none;
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+
+/* Input focus */
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff5e3a;
+    box-shadow: 0 0 8px rgba(255, 94, 58, 0.3);
+}
+
+
+/* Message box */
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+
+/* Placeholder */
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #9ca3af;
+}
+
+
+/* =========================
+   SEND BUTTON
+========================= */
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+
+    background: #ff5e3a;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 8px 20px rgba(255, 94, 58, 0.4);
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .contact-section {
+        padding: 60px 5%;
+    }
+
+    .contact-section h1 {
+        font-size: 35px;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-infom,
+    .contact-form {
+        width: 100%;
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 480px) {
+
+    .contact-section h1 {
+        font-size: 30px;
+    }
+
+    .contact-section > p {
+        font-size: 14px;
+    }
+
+    .contact-infom h2 {
+        font-size: 24px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+}
+
+
+#name_err{
+    color: red;
+}
+#email_err{
+    color: red;
+}
+#mess_err{
+    color: red;
+}
+#sub_err{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+   MOBILE RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 768px) {
+
+    /* ---------- NAVIGATION ---------- */
+
+    .home-sec ul {
+        padding: 0;
+    }
+
+    .home-sec ul li {
+        display: block;
+        padding: 12px;
+    }
+
+    .home-sec ul li a {
+        font-size: 18px;
+    }
+
+
+    /* ---------- HOME / INTRO ---------- */
+
+    .info {
+        margin: 50px 20px;
+        text-align: center;
+    }
+
+    .info h1 {
+        font-size: 40px;
+    }
+
+    .info p {
+        padding: 10px 0;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Remove the <br> effect on small screens */
+    .info p br {
+        display: none;
+    }
+
+
+    /* ---------- PROFILE IMAGE ---------- */
+
+    .image {
+        position: relative;
+        right: auto;
+        bottom: auto;
+
+        display: block;
+        width: 220px;
+        height: 220px;
+
+        margin: 30px auto;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+
+    /* ---------- SKILLS ---------- */
+
+    .skill {
+        margin-top: 80px;
+        padding: 20px;
+    }
+
+    .skill h1 {
+        font-size: 40px;
+    }
+
+    .our-skill {
+        padding: 30px 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .my_skills {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        min-height: 180px;
+        box-sizing: border-box;
+    }
+     h3{
+        text-align: center;
+    }
+
+
+    /* ---------- TOOLS ---------- */
+
+    .tools {
+        padding: 60px 20px;
+    }
+
+    .tools h1 {
+        font-size: 40px;
+    }
+
+    .tools p {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .my-tool {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 30px;
+        padding: 40px 0;
+    }
+
+    .new-tools {
+        width: 100px;
+        text-align: center;
+    }
+
+    #ime {
+        width: 90px;
+        height: 90px;
+        object-fit: contain;
+    }
+
+
+    /* ---------- CONTACT ---------- */
+
+    .contact-section {
+        padding: 60px 20px;
+    }
+
+    .contact-section h1 {
+        font-size: 40px;
+    }
+
+    .contact-section > p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+
+        gap: 30px;
+        width: 100%;
+    }
+
+    .contact-infom,
+    .contact-form {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+
+    .contact-infom h2 {
+        font-size: 25px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+
+/* =========================================
+   SMALL PHONES
+========================================= */
+
+@media (max-width: 480px) {
+
+    /* Navigation */
+
+    .home-sec ul li {
+        padding: 10px;
+    }
+
+    .home-sec ul li a {
+        font-size: 16px;
+    }
+
+
+    /* Introduction */
+
+    .info {
+        margin: 40px 15px;
+    }
+
+    .info h1 {
+        font-size: 32px;
+    }
+
+    .info p {
+        font-size: 15px;
+    }
+
+
+    /* Image */
+
+    .image {
+        width: 180px;
+        height: 180px;
+    }
+
+
+    /* Skills */
+
+    .skill {
+        margin-top: 60px;
+        padding: 15px;
+    }
+
+    .skill h1 {
+        font-size: 32px;
+    }
+
+    .my_skills {
+        max-width: 320px;
+        padding: 18px;
+    }
+
+
+    /* Tools */
+
+    .tools {
+        padding: 50px 15px;
+    }
+
+    .tools h1 {
+        font-size: 32px;
+    }
+
+    .tools p {
+        font-size: 15px;
+    }
+
+    .my-tool {
+        gap: 20px;
+    }
+
+    #ime {
+        width: 75px;
+        height: 75px;
+    }
+
+
+    /* Contact */
+
+    .contact-section {
+        padding: 50px 15px;
+    }
+
+    .contact-section h1 {
+        font-size: 32px;
+    }
+
+    .contact-infom,
+    .contact-form {
+        padding: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+}
