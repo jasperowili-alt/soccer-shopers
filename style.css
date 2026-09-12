@@ -246,10 +246,9 @@
     box-sizing: border-box;
 }
 #photo{
-      max-width: 100%;
-    height:auto;
-    object-fit:cover;
-    border-radius:10px;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
 }
 
 
@@ -260,7 +259,7 @@
 
 @media(max-width:700px){
     .gallery h1{
-        font-size: 40px;
+        font-size: 40px; 
     }
     .pic{
          padding: 20px;
