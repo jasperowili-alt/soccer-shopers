@@ -167,8 +167,8 @@
 
 
 .images3 {
-    width: 100%;
-    max-width: 450px;        /* Limits how big the image can get */
+    width: 80%;
+    max-width: 400px;        /* Limits how big the image can get */
     height: auto;
     display: block;
     border-radius: 20px;      /* Optional: rounds the sharp corners of the image */
@@ -246,7 +246,7 @@
     box-sizing: border-box;
 }
 #photo{
-      width:100%;
+      width:80%;
     height:250px;
     object-fit:cover;
     border-radius:10px;
