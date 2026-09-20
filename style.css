@@ -262,8 +262,8 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     overflow: hidden;
 }
-#photo{
-   /* height: 350px;
+.photo{
+   /*height: 350px;
     width: 350px;
     object-fit: cover;*/
     width: 100%;
@@ -308,7 +308,7 @@
 
 
 #ims{
-    width:100%;
+    width:80%;
 height:250px;
 object-fit:cover;
 }
